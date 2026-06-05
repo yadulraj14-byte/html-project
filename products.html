@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <style>
+    .first {
+      color: #00354B;
+    }
+
+    .search {
+      width: 250px;
+      border-radius: 50px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      background-color: wheat;
+    }
+
+    .second {
+      background-color: #00354B;
+      color: white;
+      text-align: center;
+    }
+
+    .whole {
+      display: flex;
+      margin-left: 60px;
+
+    }
+
+    .tt {
+      padding: 50px;
+      display: flex;
+      gap: 40px;
+    }
+
+    .but {
+      padding: 10px 45px 10px 45px;
+      border: 2px solid black;
+      align-items: center;
+      width: 150px;
+      height: 50px;
+      border-radius: 50px;
+      margin-top: 40px;
+
+    }
+
+    .third {
+      background-color: rgba(255, 255, 255, 1);
+      width: 360px;
+      height: 360px;
+      margin-left: 30px;
+      border-top-left-radius: 130px;
+      border-bottom-right-radius: 130px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+      padding: 30px;
+      transition: 0.5s;
+
+
+    }
+
+    .third:hover {
+      border-top-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-right-radius: 130px;
+      border-bottom-left-radius: 130px;
+      transition: 0.5s;
+    }
+
+    button {
+      background-color: rgba(0, 53, 75, 1);
+      width: 400px;
+      padding: 14px 40px 14px 40px;
+      color: white;
+      border-radius: 5px;
+      font-size: 17px;
+      flex-shrink: 0;
+
+    }
+
+    .ii {
+      margin-left: 30px;
+      margin-top: 20px;
+    }
+
+    .new-price {
+      font-size: 22px;
+      font-weight: bold;
+      color: black;
+    }
+
+    .old-price {
+      font-size: 16px;
+      color: gray;
+      text-decoration: line-through;
+      margin-left: 10px;
+    }
+    .load{
+      background-color: white;
+      color: black;
+      width: 200px;
+      padding: 14px 40px 14px 40px;
+      border-radius: 0px;
+      font-size: 17px;
+      margin-left: 600px;
+      margin-top: 4%  ;
+      border: 3px solid black;
+    }
+     .final {
+      margin-top: 100px;
+      margin-left: -10px;
+      background-color: rgba(139, 184, 190, 1);
+      width: 100vw;
+      padding: 30px;
+      display: flex;
+      justify-content: space-around;
+
+    }
+
+    .oo {
+      margin-top: 100px;
+      margin-left: -60px;
+      color: rgba(0, 53, 75, 1);
+
+    }
+    .yy{
+      display: flex;
+      border-top: 2px solid black;
+      justify-content: space-between;
+      padding: 30px;
+      background-color: rgba(139, 184, 190, 1);
+      font-size: 15px;
+      width: 100vw;
+      margin-left: -10px;
+
+    }
+   
+   
+   .zz{
+    margin-left: 30px;
+   }
+   .cc{
+    color: #00354B;
+   }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-3">
+    <div class="container">
+      <a class="first navbar-brand fw-bold  fs-3" href="#">Fragranzia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-medium ">
+          <li class="nav-item px-2">
+            <a class="nav-link active text-body-tertiary" href="home.html">Home</a>
+          </li>
+          <li class="nav-itemn  px-2">
+            <a class="nav-link text-primary-emphasis" href="#">Products</a>
+          </li>
+          <li class="nav-item px-2 ">
+            <a class="nav-link text-secondary" href="#">Gifting</a>
+          </li>
+          <li class="nav-item px-2  ">
+            <a class="nav-link text-secondary" href="about.html">About</a>
+          </li>
+        </ul>
+        <div class="input-group search">
+          <span class="input-group-text bg-white border-end-0">
+            <i class="bi bi-search fs-4"></i>
+          </span>
+          <input type="text" class="form-control border-start-0 shadow-none" placeholder="Search Here">
+        </div>
+        <div class="ms-2 ">
+          <a href="cart.html"><i class="bi bi-cart2  rounded-circle text-black p-2 border "></i></a>
+          <i class="bi bi-bell rounded-circle text-black p-2 border "></i>
+          <a href="profile-edit.html"><i class="bi bi-person rounded-circle text-black p-2 border"></i></a>
+
+        </div>
+
+
+      </div>
+  </nav>
+
+  <div class="second">
+    <h3>ENJOY FESTIVE DISCOUNTS!FREE SHIPPING ABOVE 999 !</h3>
+  </div>
+
+
+  <div class="whole">
+    <div class="p-4">
+      <h2>All Products</h2>
+      <p>Home > Products</p>
+    </div>
+
+    <div class="tt">
+      <div>
+        Sort By:
+      </div>
+      <div>
+        <p>Relevance</p>
+      </div>
+      <div>
+        Newest First
+      </div>
+      <div>
+        Popularity
+      </div>
+      <div>
+        Price--Low to High
+      </div>
+      <div>
+        Price--High to Low
+      </div>
+    </div>
+    <div class="but">
+      Filter
+      <i class="bi bi-sliders"></i>
+    </div>
+
+  </div>
+
+
+  <div class="d-flex justify-content-around">
+
+    <a href="product-page.html" class="text-decoration-none text-black"><div>
+      <div class="third">
+        <img src="perfume-1.png" alt="" width="300px" height="300px">
+
+      </div>
+      <div class="ii">
+        <h4>Kyros Eau De Parfum 100ml <br>
+          for Men</h4>
+        <div class="price">
+          <span class="new-price">RS 899</span>
+          <span class="old-price">RS 2000</span>
+        </div>
+        <button>Add to Cart</button>
+      </div>
+    </div></a>
+
+
+    <div>
+      <div class="third">
+        <img src="perfume-2.png" alt="" width="280px" height="280px">
+
+      </div>
+      <div class="ii">
+        <h4>Kyros Eau De Parfum 100ml <br>
+          for Men</h4>
+        <div class="price">
+          <span class="new-price">RS 899</span>
+          <span class="old-price">RS 2000</span>
+        </div>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+
+    <div>
+      <div class="third">
+        <img src="perfume-3.png" alt="" width="300px" height="300px">
+
+      </div>
+      <div class="ii">
+        <h4>Kyros Eau De Parfum 100ml <br>
+          for Men</h4>
+        <div class="price">
+          <span class="new-price">RS 899</span>
+          <span class="old-price">RS 2000</span>
+        </div>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+
+
+   <div class="d-flex justify-content-around">
+
+    <div>
+      <div class="third mt-5">
+        <img src="perfume-4.png" alt="" width="300px" height="300px">
+
+      </div>
+      <div class="ii">
+        <h4>Kyros Eau De Parfum 100ml <br>
+          for Men</h4>
+        <div class="price">
+          <span class="new-price">RS 899</span>
+          <span class="old-price">RS 2000</span>
+        </div>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+
+    <div>
+      <div class="third mt-5">
+        <img src="perfume-5.png" alt="" width="280px" height="280px">
+
+      </div>
+      <div class="ii">
+        <h4>Kyros Eau De Parfum 100ml <br>
+          for Men</h4>
+        <div class="price">
+          <span class="new-price">RS 899</span>
+          <span class="old-price">RS 2000</span>
+        </div>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+
+    <div>
+      <div class="third mt-5">
+        <img src="perfume-6.png" alt="" width="300px" height="300px">
+
+      </div>
+      <div class="ii">
+        <h4>Kyros Eau De Parfum 100ml <br>
+          for Men</h4>
+        <div class="price">
+          <span class="new-price">RS 899</span>
+          <span class="old-price">RS 2000</span>
+        </div>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+
+   <div class="d-flex justify-content-around">
+
+    <div>
+      <div class="third mt-5">
+        <img src="perfume-7.png" alt="" width="300px" height="300px">
+
+      </div>
+      <div class="ii">
+        <h4>Kyros Eau De Parfum 100ml <br>
+          for Men</h4>
+        <div class="price">
+          <span class="new-price">RS 899</span>
+          <span class="old-price">RS 2000</span>
+        </div>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+
+    <div>
+      <div class="third mt-5">
+        <img src="perfume-8.png" alt="" width="280px" height="280px">
+
+      </div>
+      <div class="ii">
+        <h4>Kyros Eau De Parfum 100ml <br>
+          for Men</h4>
+        <div class="price">
+          <span class="new-price">RS 899</span>
+          <span class="old-price">RS 2000</span>
+        </div>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+
+
+    <div>
+      <div class="third mt-5">
+        <img src="perfume-9.png" alt="" width="300px" height="300px">
+
+      </div>
+      <div class="ii">
+        <h4>Kyros Eau De Parfum 100ml <br>
+          for Men</h4>
+        <div class="price">
+          <span class="new-price">RS 899</span>
+          <span class="old-price">RS 2000</span>
+        </div>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div>
+    <button class="load">Load More</button>
+  </div>
+
+
+
+
+  <div>
+    <div class="final">
+      <div class="oo">
+        <h1>Fragranzia</h1>
+
+      </div>
+      <div>
+        <h4 class="mb-4">Pages</h4>
+
+        <p>Home</p>
+        <p>Products</p>
+        <p>Gifting</p>
+        <p>About</p>
+        <p>Profile</p>
+      </div>
+      <div>
+        <h4 class=" mb-4">Quick Links</h4>
+        <p>Privacy policy</p>
+        <p>Terms and conditions</p>
+        <p>FAQs</p>
+        <p>Customer service</p>
+      </div>
+      <div>
+        <p><i class="bi bi-envelope"></i> ftrafurniture@gmail.com</p>
+        <p><i class="bi bi-telephone"></i> +91 9876543210</p>
+        <h4 class="mt-4">Social Media</h4>
+        <img src="Social Media.png" alt="" width="150px">
+      </div>
+      
+    </div>
+
+    <div class="yy ">
+        <div class="zz">
+            <span>Web Accessibility</span> |
+            <span>Terms of Use</span> |
+            <span>Privacy Statement</span> |
+            <span>Contact Us</span>
+        </div>
+
+        <div class="me-5">
+            © 2024 Fragranzia Company. All rights reserved.
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

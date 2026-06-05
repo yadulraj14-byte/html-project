@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <style>
+    .first {
+      color: #00354B;
+    }
+
+    .search {
+      width: 250px;
+      border-radius: 50px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      background-color: wheat;
+    }
+
+    .who {
+      margin-left: 125px;
+      padding: 10px;
+      margin-top: 30px;
+    }
+
+    .cc {
+      background-color: #00354B;
+    }
+
+    .b {
+      display: flex;
+      gap: 40px;
+    }
+
+    .btnn {
+      border-radius: 5px;
+
+      width: 150px;
+      height: 45px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+      border: none;
+    }
+
+    .btn1 {
+      background-color: #00354B;
+      color: white;
+
+    }
+
+    .btn2 {
+      color: rgba(42, 42, 42, 1);
+      text-align: center;
+      padding-top: 10px;
+    }
+
+    .btn3 {
+      background-color: rgba(0, 120, 170, 1);
+      color: white;
+      margin-left: 400px;
+      text-align: center;
+      padding-top: 10px;
+    }
+    .j{
+     
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+     
+    }
+    .h{
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+
+       width: 500px;
+       border-radius: 10px;
+       height: 200px;
+       margin-left: 130px;
+       margin-top: 20px;
+
+    }
+    .p{
+      padding: 10px;
+    }
+    .btnnn{
+       border-radius: 5px;
+
+      width: 120px;
+      height: 40px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom py-3">
+    <div class="container">
+      <a class="first navbar-brand fw-bold  fs-3" href="#">Fragranzia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-medium ">
+          <li class="nav-item px-2">
+            <a class="nav-link active text-body-tertiary" href="home.html">Home</a>
+          </li>
+          <li class="nav-itemn  px-2">
+            <a class="nav-link text-secondary" href="products.html">Products</a>
+          </li>
+          <li class="nav-item px-2 ">
+            <a class="nav-link text-secondary" href="#">Gifting</a>
+          </li>
+          <li class="nav-item px-2  ">
+            <a class="nav-link text-secondary" href="about.html">About</a>
+          </li>
+        </ul>
+        <div class="input-group search">
+          <span class="input-group-text bg-white border-end-0">
+            <i class="bi bi-search fs-4"></i>
+          </span>
+          <input type="text" class="form-control border-start-0 shadow-none" placeholder="Search Here">
+        </div>
+        <div class="ms-2 ">
+          <a href="cart.html"><i class="bi bi-cart2  rounded-circle text-black p-2 border  "></i></a>
+          <i class="bi bi-bell rounded-circle text-black p-2 border "></i>
+          <a href="profile-edit.html"><i class="bi bi-person rounded-circle text-white p-2 border cc"></i></a>
+
+        </div>
+      </div>
+  </nav>
+  <div class="who ">
+    <h2>Profile</h2>
+    <p>Home > Profile</p>
+
+
+    <div class="b">
+      <a href="profile-edit.html" class="btnn btn2 text-decoration-none">Profile</a> 
+      <button class="btnn btn1">Address</button>
+      <a href="my-orders.html" class="btnn btn2 text-decoration-none">My Orders</a>      
+
+      <a href="view-address-save.html" class="btnn btn3 text-decoration-none">Add Address</a>
+    </div>
+  </div>
+
+<div class="h">
+  <div class="j"> 
+    <h4>Address 2</h4>
+    <div>
+      <button class="btnnn btn1">Office</button>
+    </div>
+  </div>
+  <a href="view-address-edit.html" class="text-decoration-none text-black"><div class="p">
+    <h5>Priyesh Manu</h5>
+    <p>Helpstir Technologies 3rd Floor, Lulu Cyber Tower Infopark Phase 2 <br>Kakkanad, Kochi – 682042</p>
+    <p><i class="bi bi-telephone"></i>+91 98765 43210</p>
+  </div></a>
+</div>
+
+
+
+</body>
+
+</html>
